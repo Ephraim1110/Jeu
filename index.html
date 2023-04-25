@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="jeu">
+            <div class="perso">
+                <svg viewBox="0 0 100 200">
+                    <!-- tête -->
+                    <circle cx="50" cy="30" r="20" fill="#F0D9B5"/>
+                    <!-- corps -->
+                    <rect x="40" y="50" width="20" height="80" fill="#CCB1A1"/>
+                    <!-- bras gauche -->
+                    <rect x="20" y="50" width="20" height="60" fill="#CCB1A1"/>
+                    <!-- bras droit -->
+                    <rect x="60" y="50" width="20" height="60" fill="#CCB1A1"/>
+                    <!-- jambe gauche -->
+                    <rect x="40" y="130" width="10" height="50" fill="#CCB1A1"/>
+                    <!-- jambe droite -->
+                    <rect x="50" y="130" width="10" height="50" fill="#CCB1A1"/>
+                  </svg>
+            </div>
+            <div class="obstacles"></div>
+        </div>
+    </section>
+
+    <div class="control">
+        <button onclick="sauter()">SAUTER</button>
+        <a href="index.html">START</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
