@@ -23,4 +23,4 @@ var verification = setInterval(function(){
 
     }
 
-},1)5
+},1)
